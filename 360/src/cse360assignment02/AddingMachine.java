@@ -33,15 +33,6 @@ public class AddingMachine {
 	  history = "0";
 	  total = 0;
   }
-  public static void main(String Args[]) {
-	  AddingMachine add = new AddingMachine();
-	  
-	  add.add (4); 
-	  add.subtract (2); 
-	  add.add(5);
-	  
-	  System.out.println(add.toString());
-  }
 }
 
 
